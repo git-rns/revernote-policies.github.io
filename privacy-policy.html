@@ -1,155 +1,176 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy – Revernote</title>
 </head>
 <body>
-<pre>
-Privacy Policy – Revernote
-Effective Date: 29 July 2025
-Developer: Richard Novas
-Contact Email: hausofnovas@gmail.com
-Jurisdiction: Global (GDPR, CCPA, Google Play Compliant)
+  <header>
+    <h1>Privacy Policy – Revernote</h1>
+    <p><strong>Effective Date:</strong> 28 July 2025</p>
+    <p><strong>Developer:</strong> Richard Novas</p>
+    <p><strong>Contact Email:</strong> hausofnovas@gmail.com</p>
+    <p><strong>Jurisdiction:</strong> Global (GDPR, CCPA, Google Play Compliant)</p>
+  </header>
 
-1. Introduction
-This Privacy Policy describes how Revernote ("we", "our", "us") collects, uses, and protects your information through the use of our mobile application ("the App"). By accessing or using the App, you agree to the practices described in this Privacy Policy.
+  <main>
+    <section>
+      <h2>1. Introduction</h2>
+      <p>This Privacy Policy describes how Revernote ("we", "our", "us") collects, uses, and protects your information through the use of our mobile application ("the App"). By accessing or using the App, you agree to the practices described in this Privacy Policy.</p>
+      <p>We are committed to protecting your privacy and complying with applicable data protection laws, including the General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), and other global standards.</p>
+    </section>
 
-We are committed to protecting your privacy and complying with applicable data protection laws, including the General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), and other global standards.
+    <section>
+      <h2>2. Definitions</h2>
+      <ul>
+        <li><strong>Personal Data</strong> refers to any information that identifies you as an individual, including your name, email address, or phone number.</li>
+        <li><strong>Processing</strong> means any action performed on Personal Data (e.g., collection, storage, use).</li>
+        <li><strong>Device Data</strong> includes information like your device model, operating system, crash logs, and app version.</li>
+      </ul>
+    </section>
 
-2. Definitions
-Personal Data refers to any information that identifies you as an individual, including your name, email address, or phone number.
+    <section>
+      <h2>3. Information We Collect</h2>
 
-Processing means any action performed on Personal Data (e.g., collection, storage, use).
+      <h3>3.1 Account Information</h3>
+      <p>When you sign up for Revernote using Google or email/password via Firebase Authentication, we collect and store the following:</p>
+      <ul>
+        <li>First Name &amp; Last Name</li>
+        <li>Email Address</li>
+        <li>Phone Number (if provided)</li>
+      </ul>
+      <p>This data is stored securely in Firebase Cloud Firestore.</p>
 
-Device Data includes information like your device model, operating system, crash logs, and app version.
+      <h3>3.2 Voice Recordings &amp; Transcriptions</h3>
+      <p>When you use the journaling feature, your voice is recorded and transcribed locally on your device.</p>
+      <p>Revernote does not upload voice recordings or transcripts to any remote server.</p>
+      <p>You maintain full control over these files.</p>
 
-3. Information We Collect
-3.1 Account Information
-When you sign up for Revernote using email/password via Firebase Authentication, we collect and store the following:
+      <h3>3.3 Analytics &amp; Usage Data</h3>
+      <p>We use Firebase Analytics to collect anonymised or pseudonymised data such as:</p>
+      <ul>
+        <li>Frequency of app usage</li>
+        <li>Screens visited</li>
+        <li>Session duration</li>
+        <li>Crash data</li>
+      </ul>
+      <p>This information helps us improve app performance and user experience.</p>
+    </section>
 
-First Name & Last Name
+    <section>
+      <h2>4. Permissions Used</h2>
+      <p>Revernote requires the following Android permissions:</p>
+      <table>
+        <thead>
+          <tr><th>Permission</th><th>Purpose</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>RECORD_AUDIO</td><td>Enables voice journaling functionality. Recordings remain on your device.</td></tr>
+          <tr><td>FOREGROUND_SERVICE</td><td>Allows background audio processing for a seamless experience.</td></tr>
+          <tr><td>RECEIVE_BOOT_COMPLETED</td><td>Restores reminders or scheduled tasks after reboot.</td></tr>
+          <tr><td>VIBRATE</td><td>Enables haptic feedback for journaling events or notifications.</td></tr>
+          <tr><td>SCHEDULE_EXACT_ALARM</td><td>Lets Revernote set exact reminder or summary alarms.</td></tr>
+          <tr><td>USE_FULL_SCREEN_INTENT</td><td>Allows full-screen alerts for important journaling reminders.</td></tr>
+        </tbody>
+      </table>
+      <p>We only use these permissions for their clearly stated purposes and do not access other device data.</p>
+    </section>
 
-Email Address
+    <section>
+      <h2>5. How We Use Your Data</h2>
+      <p>Your data is used for the following purposes:</p>
+      <ul>
+        <li>To authenticate your account</li>
+        <li>To personalise and operate core app features</li>
+        <li>To provide technical support</li>
+        <li>To send relevant notifications (e.g., daily journal reminders)</li>
+        <li>To monitor app performance, stability, and improve functionality</li>
+      </ul>
+    </section>
 
-Phone Number (if provided)
+    <section>
+      <h2>6. Legal Basis for Processing (GDPR Compliance)</h2>
+      <p>We process your personal data based on:</p>
+      <ul>
+        <li>Contractual necessity – to provide core app functionality</li>
+        <li>Legitimate interests – to improve the app experience</li>
+        <li>Consent – when explicitly required for optional features</li>
+      </ul>
+    </section>
 
-This data is stored securely in Firebase Cloud Firestore.
+    <section>
+      <h2>7. Data Sharing &amp; Third Parties</h2>
+      <p>We do not sell your personal data.<br>
+      We only share your data with Firebase, which provides:</p>
+      <ul>
+        <li>Authentication (Firebase Auth)</li>
+        <li>Database storage (Cloud Firestore)</li>
+        <li>Crash and usage analytics (Firebase Analytics)</li>
+      </ul>
+      <p>Firebase is GDPR and CCPA compliant. Their privacy policy is available at:<br>
+      <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a></p>
+    </section>
 
-3.2 Voice Recordings & Transcriptions
-When you use the journaling feature, your voice is recorded and transcribed locally on your device.
+    <section>
+      <h2>8. Your Rights</h2>
+      <p>Depending on your region, you may have the following rights:</p>
+      <table>
+        <thead>
+          <tr><th>Right</th><th>Description</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Access</td><td>Request a copy of your personal data</td></tr>
+          <tr><td>Rectification</td><td>Request correction of inaccurate or incomplete data</td></tr>
+          <tr><td>Erasure</td><td>Request deletion of your data ("right to be forgotten")</td></tr>
+          <tr><td>Restrict Processing</td><td>Limit how your data is used</td></tr>
+          <tr><td>Data Portability</td><td>Obtain a copy of your data in a machine-readable format</td></tr>
+          <tr><td>Object</td><td>Object to data processing for specific reasons</td></tr>
+        </tbody>
+      </table>
+      <p>To exercise these rights, contact us at hausofnovas@gmail.com</p>
+    </section>
 
-Revernote does not upload voice recordings or transcripts to any remote server.
+    <section>
+      <h2>9. Data Retention</h2>
+      <p>Account data is retained until the user requests deletion.</p>
+      <p>Local audio and transcripts remain on the device unless manually removed by the user.</p>
+      <p>Crash logs and analytics data may be retained for up to 12 months.</p>
+    </section>
 
-You maintain full control over these files.
+    <section>
+      <h2>10. Children’s Privacy</h2>
+      <p>Revernote is not intended for children under 13 years of age. We do not knowingly collect personal data from children. If you believe we have collected such data, contact us to request deletion.</p>
+    </section>
 
-3.3 Analytics & Usage Data
-We use Firebase Analytics to collect anonymised or pseudonymised data such as:
+    <section>
+      <h2>11. Data Security</h2>
+      <p>We implement appropriate technical and organisational safeguards to protect your data from unauthorised access, misuse, or alteration, including:</p>
+      <ul>
+        <li>Encrypted transmission via Firebase</li>
+        <li>Secured Firebase Firestore rules</li>
+        <li>Local device storage for sensitive content</li>
+      </ul>
+      <p>However, no digital system is 100% secure. We recommend keeping your device secure and not sharing your login credentials.</p>
+    </section>
 
-Frequency of app usage
+    <section>
+      <h2>12. International Data Transfers</h2>
+      <p>Your data may be processed in countries where Firebase infrastructure is located, including the United States. These transfers are made under standard contractual clauses or equivalent legal mechanisms under GDPR.</p>
+    </section>
 
-Screens visited
+    <section>
+      <h2>13. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. Material changes will be communicated via in-app notification or email. Your continued use of the App constitutes acceptance of any updates.</p>
+    </section>
 
-Session duration
-
-Crash data
-
-This information helps us improve app performance and user experience.
-
-4. Permissions Used
-Revernote requires the following Android permissions:
-
-Permission	Purpose
-RECORD_AUDIO	Enables voice journaling functionality. Recordings remain on your device.
-FOREGROUND_SERVICE	Allows background audio processing for a seamless experience.
-RECEIVE_BOOT_COMPLETED	Restores reminders or scheduled tasks after reboot.
-VIBRATE	Enables haptic feedback for journaling events or notifications.
-SCHEDULE_EXACT_ALARM	Lets Revernote set exact reminder or summary alarms.
-USE_FULL_SCREEN_INTENT	Allows full-screen alerts for important journaling reminders.
-
-We only use these permissions for their clearly stated purposes and do not access other device data.
-
-5. How We Use Your Data
-Your data is used for the following purposes:
-
-To authenticate your account
-
-To personalise and operate core app features
-
-To provide technical support
-
-To send relevant notifications (e.g., daily journal reminders)
-
-To monitor app performance, stability, and improve functionality
-
-6. Legal Basis for Processing (GDPR Compliance)
-We process your personal data based on:
-
-Contractual necessity – to provide core app functionality
-
-Legitimate interests – to improve the app experience
-
-Consent – when explicitly required for optional features
-
-7. Data Sharing & Third Parties
-We do not sell your personal data.
-We only share your data with Firebase, which provides:
-
-Authentication (Firebase Auth)
-
-Database storage (Cloud Firestore)
-
-Crash and usage analytics (Firebase Analytics)
-
-Firebase is GDPR and CCPA compliant. Their privacy policy is available at:
-https://firebase.google.com/support/privacy
-
-8. Your Rights
-Depending on your region, you may have the following rights:
-
-Right	Description
-Access	Request a copy of your personal data
-Rectification	Request correction of inaccurate or incomplete data
-Erasure	Request deletion of your data ("right to be forgotten")
-Restrict Processing	Limit how your data is used
-Data Portability	Obtain a copy of your data in a machine-readable format
-Object	Object to data processing for specific reasons
-
-To exercise these rights, contact us at hausofnovas@gmail.com
-
-9. Data Retention
-Account data is retained until the user requests deletion.
-
-Local audio and transcripts remain on the device unless manually removed by the user.
-
-Crash logs and analytics data may be retained for up to 12 months.
-
-10. Children’s Privacy
-Revernote is not intended for children under 13 years of age. We do not knowingly collect personal data from children. If you believe we have collected such data, contact us to request deletion.
-
-11. Data Security
-We implement appropriate technical and organisational safeguards to protect your data from unauthorised access, misuse, or alteration, including:
-
-Encrypted transmission via Firebase
-
-Secured Firebase Firestore rules
-
-Local device storage for sensitive content
-
-However, no digital system is 100% secure. We recommend keeping your device secure and not sharing your login credentials.
-
-12. International Data Transfers
-Your data may be processed in countries where Firebase infrastructure is located, including the United States. These transfers are made under standard contractual clauses or equivalent legal mechanisms under GDPR.
-
-13. Changes to This Policy
-We may update this Privacy Policy from time to time. Material changes will be communicated via in-app notification or email. Your continued use of the App constitutes acceptance of any updates.
-
-14. Contact Us
-If you have any questions about this Privacy Policy or your data rights, please contact:
-
-Richard Novas
-Email: hausofnovas@gmail.com
-India
-</pre>
+    <section>
+      <h2>14. Contact Us</h2>
+      <p>If you have any questions about this Privacy Policy or your data rights, please contact:</p>
+      <p><strong>Richard Novas</strong><br>
+      Email: <a href="mailto:hausofnovas@gmail.com">hausofnovas@gmail.com</a><br>
+      India</p>
+    </section>
+  </main>
 </body>
 </html>
